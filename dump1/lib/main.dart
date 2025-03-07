@@ -1,5 +1,4 @@
-
-import 'package:dump1/screens/home.dart';
+import 'package:dump1/form.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      title: 'My Flutter App',
-      themeMode: ThemeMode.system,
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: "3.2 Flutter Push Pop",
+      theme: ThemeData.light(),
+      home: MyForm(),
     );
   }
-}      
+}
